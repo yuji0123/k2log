@@ -3,20 +3,259 @@
 <head>
 	<meta charset="UTF-8">
 	<title>K2Log</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+
 </head>
 <body>
-	<div id="header">
-		<!-- ここにメニューバー、サイトロゴ、を表示する -->
-	</div>
-	<div id="main_column">
-		<!-- ここに記事のリストを表示する、デフォルトは日付順 -->
-		ul.articlelist>(li.articlelist_item>a.articlelist_link+(time.articlelist_time>span.articlelist_year+span.articlelist_month+span.articlelist_day)+span.articlelist_title)*10
-	</div>
-	<div id="sub_column">
-		<!-- ここに記事のソートをするボタンを配置(javascriptでソートを実現する)、facebookリンク、広告枠 -->
-	</div>
-	<div id="footer">
-		<!-- ここにコピーライト、他のSNSへのリンクを表示する -->
+	<div class="wrapper">
+		<div class="header">
+			<!-- ここにメニューバー、サイトロゴ、を表示する -->
+			<h1 class="header">
+				<a href="" class="header_link">
+					<img src="img/k2log_logo_demo_03.png" alt="" class="header_logo">
+				</a>
+				<!-- <p class="header_description">ここに説明文。ここに説明文。ここに説明文。ここに説明文。ここに説明文。ここに説明文。</p> -->
+			</h1>
+		</div>
+		<div class="contents">
+			<div class="main_column">
+				<!-- ここに記事のリストを表示する、デフォルトは日付順 -->
+				<ul class="articlelist">
+					<li class="articlelist_item"><span class="articlelist_title">2014</span></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">7</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.10</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">6</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.9</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">5</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.8</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">4</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.7</span>
+						</a></li>
+					<li class="articlelist_item"><a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">3</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.6</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">2</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.5</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">1</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.4</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">9</span>
+								<span class="articlelist_day">30</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.3</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">9</span>
+								<span class="articlelist_day">29</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.2</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">9</span>
+								<span class="articlelist_day">28	</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.1</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">7</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.10</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">6</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.9</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">5</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.8</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">4</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.7</span>
+						</a></li>
+					<li class="articlelist_item"><a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">3</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.6</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">2</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.5</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">10</span>
+								<span class="articlelist_day">1</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.4</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">9</span>
+								<span class="articlelist_day">30</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.3</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">9</span>
+								<span class="articlelist_day">29</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.2</span>
+						</a></li>
+					<li class="articlelist_item">
+						<a href="show.html" class="articlelist_link">
+							<time class="articlelist_time">
+								<span class="articlelist_year">2014</span>
+								<span class="articlelist_month">9</span>
+								<span class="articlelist_day">28	</span>
+							</time>
+							<span class="articlelist_content">ブログ作成日記No.1</span>
+						</a></li>
+				</ul>
+			</div>
+			<div class="sub_column">
+				<!-- ここに記事のソートをするボタンを配置(javascriptでソートを実現する)、facebookリンク、広告枠 -->
+				<div class="sublist_title">Sort by</div>
+				<div class="sort_navigation">
+					<ul class="sortlist">
+						<li class="sortlist_item"><a href="" class="sortlist_link">Time</a></li>
+						<li class="sortlist_item"><a href="" class="sortlist_link">PV</a></li>
+						<li class="sortlist_item"><a href="" class="sortlist_link">Category</a></li>
+						<li class="sortlist_item"><a href="" class="sortlist_link">Tag</a></li>
+					</ul>
+				</div>
+				<div class="sublist_title">Twitter</div>
+				<div class="twitter_background_style">
+					<div class="twitter_widget_style">
+						<a class="twitter-timeline" href="https://twitter.com/Bad0123Ugene" data-widget-id="651678106713919488">@Bad0123Ugeneさんのツイート</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+				</div>
+				<div class="sublist_rest"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="footer">
+			<!-- ここにコピーライト、他のSNSへのリンクを表示する -->
+			<div class="footer_background_style">
+				<ul class="footer_inquirylist">
+					<li class="footer_inquirylist_title">	Inquiry</li>
+					<li class="footer_inquirylist_item">
+						<a href="" class="footer_inquirylist_link">
+							Google+
+						</a>
+					</li>
+					<li class="footer_inquirylist_item">
+						<a href="" class="footer_inquirylist_link">
+							Facebook
+						</a>
+					</li>
+					<li class="footer_inquirylist_item">
+						<a href="" class="footer_inquirylist_link">
+							Twitter
+						</a>
+					</li>
+					<li class="footer_inquirylist_item">
+						<a href="" class="footer_inquirylist_link">
+							Mail
+						</a>
+					</li>
+				</ul>
+				<p class="footer_content">footer</p>
+			</div>
+		</div>
 	</div>
 </body>
+
+<script type="text/javascript" src="js/layout.js" charset="utf-8" async="async"></script>
 </html>

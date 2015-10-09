@@ -1,0 +1,197 @@
+body{
+    background: #B9C3CC repeat;
+    text-align: center;
+}
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    color: #4D697F;
+}
+div.header{
+	height: 500px;
+}
+/*２カラム設定*/
+div.main_column{
+	float: left;
+	width: 700px;
+}
+div.sub_column{
+	float: left;
+	width: 398px;
+	text-align: center;
+	/*background: #ADADAD;*/
+	margin-left: 2px;
+}
+div.clear{
+	clear: both;
+}
+
+
+/*メインカラム設定*/
+li.articlelist_item{
+	height: 50px;
+	background: #ADADAD;
+	display: block;
+	margin-bottom: 1px;
+	text-align: left;
+}
+.articlelist_title{
+	display: block;
+	padding: 17px 0px;
+	color: #FFFFFF;
+	text-align: center;
+}
+a.articlelist_link{
+	display: block;
+	height: 50px;
+}
+
+/*サブカラム設定*/
+.sublist_title{
+	height: 16px;
+	background: #707070;
+	display: block;
+	margin-bottom: 1px;
+	padding: 17px 0px;
+	color: #FFFFFF;
+}
+.sortlist_item{
+	height: 50px;
+	background: #ADADAD;
+	display: block;
+	margin-bottom: 1px;
+}
+.sortlist_link{
+	display: block;
+	font-size: 16px;
+	padding: 17px 0px;
+}
+.sublist_rest{
+	height: 102px;
+	background: #ADADAD;
+}
+/*twitter部分の背景色、サイズ設定*/
+div.twitter_background_style{
+	background: #ADADAD;
+	padding: 30px 0px;
+	/*margin-bottom: 1px;*/
+}
+div.twitter_widget_style{
+	width: 350px;
+	margin: 0 auto;
+}
+
+/*記事リストのaタグの文字の色の設定*/
+a.articlelist_link:link{
+	color: #FFFFFF;
+}
+a.articlelist_link:visited{
+	color: #FFFFFF;
+}
+a.articlelist_link:hover{
+	color: #FFFFFF;
+}
+/*サイドバーのリストのCSS*/
+a.sortlist_link:link{
+	color: #FFFFFF;
+}
+a.sortlist_link:visited{
+	color: #FFFFFF;
+}
+a.sortlist_link:hover{
+	/*background: #FFFFFF;*/
+	color: #FFFFFF;
+}
+/*お問い合わせリストのaタグの文字の色の設定*/
+a.footer_inquirylist_link:link{
+	color: #FFFFFF;
+}
+a.footer_inquirylist_link:visited{
+	color: #FFFFFF;
+}
+a.footer_inquirylist_link:hover{
+	color: #FFFFFF;
+}
+
+
+/*footer*/
+ul.footer_inquirylist{
+	font-size: 0;
+	color: #FFFFFF;
+}
+div.footer_background_style{
+	width: 100%;
+	height: 500px;
+	/*background: #707070;*/
+}
+li.footer_inquirylist_title{
+	background: #707070;
+	display: block;
+	margin-bottom: 1px;
+	text-align: center;
+	padding: 17px 0px;
+	font-size: 16px;
+}
+li.footer_inquirylist_item{
+	height: 300px;
+	width: 273.5px;
+	background: #909090;
+	display: inline-block;
+	margin-bottom: 1px;
+	text-align: left;
+	margin-right: 2px;
+	font-size: 16px;
+}
+li.footer_inquirylist_item:last-child{
+	margin-right: 0px;
+}
+.articlelist_title{
+	display: block;
+	padding: 17px 0px;
+	color: #FFFFFF;
+	text-align: center;
+}
+a.articlelist_link{
+	display: block;
+	height: 50px;
+}
+
+
+/*記事リストのliを整える*/
+.articlelist_time{
+	font-size: 0;
+}
+.articlelist_year{
+	display: none;
+}
+.articlelist_month{
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+	font-size: 16px;
+	padding: 17px 0px;
+	background: #ADADAD;
+}
+.articlelist_day{
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+	font-size: 16px;
+	padding: 17px 0px;
+	background: #A0A0A0;
+}
+.articlelist_content{
+	display: inline-block;
+	width: 590px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 10px;
+	background: #909090;
+
+}
+
+.articlelist_item:hover{
+	background: #;
+}
+
