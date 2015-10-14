@@ -5,7 +5,10 @@
 	<title>K2Log</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
-
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="js/layout.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -21,9 +24,9 @@
 		<div class="contents">
 			<div class="main_column">
 				<!-- ここに記事のリストを表示する、デフォルトは日付順 -->
-				<ul class="articlelist">
-					<li class="articlelist_item"><span class="articlelist_title">2014</span></li>
-					<li class="articlelist_item">
+				<ul class="articlelist" id="container">
+					<li class="articlelist_categorytitle"><span class="articlelist_title">2014</span></li>
+					<li class="articlelist_item mix category-1">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -32,7 +35,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.10</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix category-1">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -41,7 +44,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.9</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix category-2">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -50,7 +53,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.8</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix category-1">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -59,7 +62,8 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.7</span>
 						</a></li>
-					<li class="articlelist_item"><a href="show.html" class="articlelist_link">
+					<li class="articlelist_item mix category-1">
+						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
 								<span class="articlelist_month">10</span>
@@ -67,7 +71,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.6</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix category-2">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -76,7 +80,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.5</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -85,7 +89,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.4</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -94,7 +98,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.3</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -103,7 +107,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.2</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -112,7 +116,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.1</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -121,7 +125,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.10</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -130,7 +134,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.9</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -139,7 +143,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.8</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -148,7 +152,8 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.7</span>
 						</a></li>
-					<li class="articlelist_item"><a href="show.html" class="articlelist_link">
+					<li class="articlelist_item mix">
+						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
 								<span class="articlelist_month">10</span>
@@ -156,7 +161,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.6</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -165,7 +170,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.5</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -174,7 +179,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.4</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -183,7 +188,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.3</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -192,7 +197,7 @@
 							</time>
 							<span class="articlelist_content">ブログ作成日記No.2</span>
 						</a></li>
-					<li class="articlelist_item">
+					<li class="articlelist_item mix">
 						<a href="show.html" class="articlelist_link">
 							<time class="articlelist_time">
 								<span class="articlelist_year">2014</span>
@@ -208,10 +213,10 @@
 				<div class="sublist_title">Sort by</div>
 				<div class="sort_navigation">
 					<ul class="sortlist">
-						<li class="sortlist_item"><a href="" class="sortlist_link">Time</a></li>
-						<li class="sortlist_item"><a href="" class="sortlist_link">PV</a></li>
-						<li class="sortlist_item"><a href="" class="sortlist_link">Category</a></li>
-						<li class="sortlist_item"><a href="" class="sortlist_link">Tag</a></li>
+						<li class="sortlist_item filter" data-filter=".category-1"><p class="sortlist_link">Time</p></li>
+						<li class="sortlist_item filter" data-filter=".category-2"><p class="sortlist_link">PV</p></li>
+						<li class="sortlist_item"><p class="sortlist_link">Category</p></li>
+						<li class="sortlist_item"><p class="sortlist_link">Tag</p></li>
 					</ul>
 				</div>
 				<div class="sublist_title">Twitter</div>
@@ -228,7 +233,7 @@
 		<div class="footer">
 			<!-- ここにコピーライト、他のSNSへのリンクを表示する -->
 			<div class="footer_background_style">
-				<ul class="footer_inquirylist">
+				<!-- <ul class="footer_inquirylist">
 					<li class="footer_inquirylist_title">	Inquiry</li>
 					<li class="footer_inquirylist_item">
 						<a href="" class="footer_inquirylist_link">
@@ -250,7 +255,7 @@
 							Mail
 						</a>
 					</li>
-				</ul>
+				</ul> -->
 				<p class="footer_content">footer</p>
 			</div>
 		</div>
