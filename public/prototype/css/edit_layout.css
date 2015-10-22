@@ -1,0 +1,88 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+.header_edit{
+	position:fixed;
+	width: 100%;
+	background-color: #707070;
+}
+.header_edit_item{
+	float: left;
+}
+.header_icon_edit{
+	width: 30%;
+}
+.menu_edit{
+	float: right;
+}
+.menu_edit_item{
+	float: left;
+}
+form.edit_space{
+	display: block;
+	height : 100%;
+}
+.contents_edit_item{
+	float:left;
+	width: 50%;
+	text-align: center;
+}
+.edit_background{
+	padding:10px 10px;
+}
+.edit_article{
+	width: 100%;
+}
+.edit_article_title{
+	height: 40px;
+	font-size: 25px;
+}
+.edit_article_text{
+	height: 200px;
+	font-size: 12px;
+}
+.edit_article_submit{
+	position: fixed;
+	width: 100%;
+	height: 42px;
+	background-color: #707070;
+}
+.contents_edit{
+	width: 100%;
+	height: 100%;
+}
+
+/*記事プレビューの設定*/
+.article_preview{
+	display: block;
+	width: 100%;
+}
+.article_preview_title{
+	display:block;
+	border-bottom: solid #000000 1px;
+	margin: 0px 5px;
+	padding: 5px;
+}
+.article_preview_contents{
+	margin-left: 5px;
+	text-align: left;
+}
+div.edit_article_submit{
+
+}
+div.submit_button_place{
+	float: right;
+	width:50%;
+
+}
+input.submit_button{
+	padding: 12px 40px;
+    font-size: 16px;
+    background-color: #707070;
+    color: #fff;
+    border-style: none;
+    border-left: solid #909090 1px;
+    border-right: solid #909090 1px;
+}

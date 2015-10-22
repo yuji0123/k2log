@@ -123,8 +123,8 @@ a.articlelist_link:hover{
 	color: #FFFFFF;
 }
 .sortlist_item{
-	height: 50px;
-	background: #ADADAD;
+	/*height: 50px;*/
+	/*background: #707070;*/
 	display: block;
 	margin-bottom: 1px;
 }
@@ -132,7 +132,12 @@ a.articlelist_link:hover{
 	display: block;
 	font-size: 16px;
 	padding: 17px 0px;
+	/*color: #FFFFFF;*/
+	/*background: rgba(173, 173, 173, 1);*/
+}
+.sortlist_link_content{
 	color: #FFFFFF;
+	opacity: 1;
 }
 .sublist_rest{
 	height: 102px;
@@ -148,17 +153,7 @@ div.twitter_widget_style{
 	width: 350px;
 	margin: 0 auto;
 }
-/*サイドバーのリストのCSS*/
-a.sortlist_link:link{
-	color: #FFFFFF;
-}
-a.sortlist_link:visited{
-	color: #FFFFFF;
-}
-a.sortlist_link:hover{
-	/*background: #FFFFFF;*/
-	color: #FFFFFF;
-}
+
 
 
 
@@ -205,12 +200,6 @@ li.footer_inquirylist_item{
 li.footer_inquirylist_item:last-child{
 	margin-right: 0px;
 }
-
-
-
-
-
 .articlelist_item:hover{
 	/*background: #000000;*/
 }
-

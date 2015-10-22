@@ -1,4 +1,13 @@
 $(function(){
+
+	$('.sortlist_item').css({
+		backgroundColor: '#707070'
+	});
+
+	$('.sortlist_link').css({
+		backgroundColor: jQuery.Color( "rgba(170,170,170,1.0)" )
+	});
+
 	$('#container').on('mixStart', function(e, state){
 		$(".mix").css({
 			display: "inline-block"
@@ -9,11 +18,22 @@ $(function(){
 	$('.articlelist_link').hover(
 		function(){
 			// console.log($(this).find('.articlelist_subcontent'));
-			$(this).stop().fadeTo('fast', 0.);
+			$(this).stop().fadeTo('fast', 0.4);
 		},
 		function(){
 			$(this).stop().fadeTo('fast', 1.0);
 		});
+
+	// Sortbyにマウスカーソルが当たった時のエフェクト
+	$('.sortlist_link').hover(
+		function(){
+			$(this).stop().animate({backgroundColor: jQuery.Color( "rgba(170,170,170,0.3)" )}, 200);
+		},
+		function(){
+			$(this).stop().animate({backgroundColor: jQuery.Color( "rgba(170,170,170,1.0)" )}, 200);
+		});
+
+
 });
 
 
